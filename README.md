@@ -1,18 +1,11 @@
 [![Build Status](https://github.com/bast/gtest-demo/actions/workflows/test.yml/badge.svg)](https://github.com/bast/gtest-demo/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/bast/gtest-demo/badge.png?branch=master)](https://coveralls.io/r/bast/gtest-demo?branch=master)
-[![License](https://img.shields.io/badge/license-%20BSD--3-blue.svg)](../master/LICENSE)
 
 
-# gtest-demo
+# Algorithms and Data Structures in C++
 
-C/C++ unit test demo using [Google Test](https://code.google.com/p/googletest)
-with continuous integration provided by [GitHub
-Actions](https://docs.github.com/en/actions) and test coverage deployed to
-[Coveralls](https://coveralls.io/r/bast/gtest-demo).
-
-- [Build and test history](https://github.com/bast/gtest-demo/actions)
-- [Code coverage](https://coveralls.io/r/bast/gtest-demo)
-- Licensed under [BSD-3](../master/LICENSE)
+C++ implementation using TDD of the algorithms and data
+structures in "Algorithms I" from Princeton University.
 
 
 ## How to build this demo
@@ -65,6 +58,4 @@ $ ./bin/unit_tests
 
 ## Acknowledgments
 
-- Container Travis setup thanks to [Joan Massich](https://github.com/massich).
-- Clean-up in CMake code thanks to [Claus Klein](https://github.com/ClausKlein).
-- Clean-up and GitHub Actions workflow: [Roberto Di Remigio](https://github.com/robertodr).
+Boilerplate and GoogleTest configuration from [gtest-demo](https://github.com/bast/gtest-demo)
