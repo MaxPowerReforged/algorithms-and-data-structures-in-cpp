@@ -1,4 +1,4 @@
-add_library(stack)
+add_library(stack stack/FixedSizeArrayStack.h)
 
 target_sources(stack
   PRIVATE

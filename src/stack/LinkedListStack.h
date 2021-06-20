@@ -2,16 +2,22 @@
 #include "Node.h"
 
 template<typename T>
-class LinkedListStack : public IStack<T> {
+class LinkedListStack : public IStack<T>
+{
 public:
     void Push(T item) override
     {
-        return;
+        auto new_node = new Node<T>();
+        new_node->item = item;
+        new_node->next = firstNode;
+        firstNode = new_node;
     }
 
     T Pop() override
     {
-        return firstNode->item;
+        auto popped_item = firstNode->item;
+        firstNode = firstNode->next;
+        return popped_item;
     }
 
     bool IsEmpty() override
@@ -21,7 +27,14 @@ public:
 
     int Size() override
     {
-        return 0;
+        int count = 0;
+        Node<int>* current_node = firstNode;
+        while(current_node != nullptr)
+        {
+            count++;
+            current_node = current_node->next;
+        }
+        return count;
     }
 
 private:

@@ -11,6 +11,7 @@ FetchContent_MakeAvailable(gtest)
 add_executable(
     unit_tests
         stack/LinkedListStackTest.cpp
+        stack/FixedSizeArrayStack.cpp
     )
 
 target_link_libraries(unit_tests
