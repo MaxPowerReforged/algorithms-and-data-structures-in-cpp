@@ -11,8 +11,7 @@ public:
 
     T Pop() override
     {
-        T popped_item = items[n-1];
-        n--;
+        T popped_item = items[--n];
         return popped_item;
     }
 
@@ -28,5 +27,5 @@ public:
 
 private:
     int n = 0;
-    T items[5] = { 0, 0, 0, 0, 0};
+    T items[5];
 };
