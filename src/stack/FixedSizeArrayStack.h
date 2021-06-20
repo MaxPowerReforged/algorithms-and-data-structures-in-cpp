@@ -27,5 +27,5 @@ public:
 
 private:
     int n = 0;
-    T items[5];
+    T items[5]; //hack: size is hardcoded. Could be injected in constructor, but still not ideal solution
 };
