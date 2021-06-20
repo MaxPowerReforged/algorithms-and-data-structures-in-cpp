@@ -1,13 +1,16 @@
-add_library(example)
+add_library(stack)
 
-target_sources(example
+target_sources(stack
   PRIVATE
-    example.cpp
+    stack/LinkedListStack.cpp
+    stack/Node.cpp
   PUBLIC
-    example.h
+    stack/LinkedListStack.h
+    stack/Node.h
+    stack/IStack.h
   )
 
-target_include_directories(example
+target_include_directories(stack
   PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}
   )
@@ -15,11 +18,11 @@ target_include_directories(example
 # we use this to get code coverage
 # flags are only valid with the GNU compiler and on Linux
 if(CMAKE_CXX_COMPILER_ID MATCHES GNU AND CMAKE_HOST_SYSTEM_NAME STREQUAL "Linux")
-  target_compile_options(example
+  target_compile_options(stack
     PUBLIC
       "--coverage"
     )
-  target_link_options(example
+  target_link_options(stack
     INTERFACE
       "--coverage"
     )
