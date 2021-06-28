@@ -12,6 +12,7 @@ add_executable(
     unit_tests
         stack/LinkedListStackTest.cpp
         stack/FixedSizeArrayStack.cpp
+        stack/ResizingArrayStack.cpp
     )
 
 target_link_libraries(unit_tests

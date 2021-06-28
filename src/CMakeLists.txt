@@ -8,6 +8,7 @@ target_sources(stack
     stack/LinkedListStack.h
     stack/Node.h
     stack/IStack.h
+        stack/ResizingArrayStack.h
   )
 
 target_include_directories(stack
