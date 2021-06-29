@@ -13,6 +13,7 @@ add_executable(
         stack/LinkedListStackTest.cpp
         stack/FixedSizeArrayStack.cpp
         stack/ResizingArrayStack.cpp
+        queue/LinkedListQueueTest.cpp
     )
 
 target_link_libraries(unit_tests
