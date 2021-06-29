@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/MaxPowerReforged/algorithms-and-data-structures-in-cpp/actions/workflows/test.yml/badge.svg)](https://github.com/bast/gtest-demo/actions/workflows/test.yml)
+[![Build Status](https://github.com/MaxPowerReforged/algorithms-and-data-structures-in-cpp/actions/workflows/test.yml/badge.svg)](https://github.com/MaxPowerReforged/algorithms-and-data-structures-in-cpp/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/MaxPowerReforged/algorithms-and-data-structures-in-cpp/badge.svg)](https://coveralls.io/github/MaxPowerReforged/algorithms-and-data-structures-in-cpp)
 
 
