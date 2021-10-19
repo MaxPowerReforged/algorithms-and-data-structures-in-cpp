@@ -1,4 +1,4 @@
-add_library(stack stack/FixedSizeArrayStack.h)
+add_library(stack stack/FixedSizeArrayStack.h queue/ResizingArrayQueue.h)
 
 target_sources(stack
   PRIVATE
